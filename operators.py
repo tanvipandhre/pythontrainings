@@ -2,16 +2,22 @@ a = 5
 b = 3
 #This is addition
 print(a+b)
+
 #This is subtraction
 print(a-b)
+
 #This multiplication
 print(a*b)
+
 #This is division
 print(a/b)
+
 #This is exponential
 print(a**b)
-#This is quotient
+
+#This is quotient --> returns integer 
 print(a//b)
+
 #This modulo for remainder
 print(a%b)
 
@@ -59,5 +65,9 @@ print('x and y is', x and y)
 print('x or y is', x or y)
 print('not x is', not x)
 
+price = 25
+print(price > 10 and price < 30)
 
+num = 13.9
+print('round the num --> ', round(num))
 

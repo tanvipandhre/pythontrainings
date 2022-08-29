@@ -11,7 +11,7 @@ print(is_passed, type(is_passed))
 fruilts_list = ['Apple', 'Orange', 'Banana']
 print(fruilts_list, type(fruilts_list))
 
-name = "Rahul"
+name = "Savita"
 print(name)
 age = 25
 print(age)
