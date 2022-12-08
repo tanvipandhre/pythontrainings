@@ -7,7 +7,7 @@ print(numbers[0]) # to access
 #numbers[0] = 10 this will not work as we ca
 
 '''
-functionality - unpacking
+functionality - unpacking, unpack variables 
 '''
 coordinates = (1, 2, 3)
 '''

@@ -22,5 +22,44 @@ numbers = {
     '2' : 'two',
     '3' : 'three'
 }
+output = ''
 for num in phoneno:
-    print(numbers.get(num), end = ' ')
+    #print(numbers.get(num), end = ' ')
+    output += numbers.get(num) + " "
+
+print(f'Output --> {output}')
+
+'''
+program to make a sentences w symbols into emojis
+'''
+message = input('Enter a message:')
+words = message.split(' ')
+print(words)
+emojis = {
+    ":)" : "^_^",
+    ":(" : "^c^"
+}
+outputt = ''
+for word in words:
+    outputt += emojis.get(word, word) + " "
+print('emoji output -->  ', outputt)
+
+'''
+making a function out of it
+'''
+def print_emojis(message):
+    words = message.split(' ')
+    print(words)
+    emojis = {
+        ":)" : "^_^",
+        ":(" : "^c^"
+    }
+    outputt = ''
+    for word in words:
+        outputt += emojis.get(word, word) + " "
+    return outputt
+
+
+msg = input('enter msg ')
+output_msg = print_emojis(msg)
+print(f"we don't worry about i/p n o/p in the method --> {output_msg}")
